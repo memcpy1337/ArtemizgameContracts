@@ -10,6 +10,6 @@
 	  <Product>Calculator</Product>
 	  <Description>Artemizgame.Contracts</Description>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-  </PropertyGroup>
+  </PropertyGroup> 
 
 </Project>
