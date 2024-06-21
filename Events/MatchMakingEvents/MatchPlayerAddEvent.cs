@@ -10,4 +10,5 @@ public record MatchPlayerAddEvent
 {
     public required string UserId { get; set; }
     public required string MatchId { get; set; }
+    public bool ServerWasReady { get; set; }
 }
