@@ -1,4 +1,4 @@
-﻿namespace Contracts
+﻿namespace Contracts.Events.UserEvents
 {
     public record UserRegisterEvent
     {
