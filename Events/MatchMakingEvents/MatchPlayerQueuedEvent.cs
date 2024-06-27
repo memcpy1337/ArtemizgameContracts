@@ -8,5 +8,6 @@ namespace Contracts.Events.MatchMakingEvents;
 
 public record MatchPlayerQueuedEvent
 {
+    public required string UserId { get; set; }
     public string Token { get; set; } = String.Empty;
 }
