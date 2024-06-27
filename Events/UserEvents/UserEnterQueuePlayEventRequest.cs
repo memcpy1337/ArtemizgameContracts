@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Contracts.Events.UserEvents;
-public record UserEnterQueuePlayEvent
+public record UserEnterQueuePlayEventRequest
 {
     public required string UserId { get; set; }
     public int Elo { get; set; }
