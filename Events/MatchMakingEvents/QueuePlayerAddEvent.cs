@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Contracts.Events.MatchMakingEvents;
 
-public record UserEnterQueuePlayEventResponse
+public record QueuePlayerAddEvent
 {
-    public string Token { get; set; } = String.Empty;
+    public required string UserId { get; set; }
 }
