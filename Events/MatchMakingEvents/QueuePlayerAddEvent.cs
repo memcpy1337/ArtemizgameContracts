@@ -9,4 +9,5 @@ namespace Contracts.Events.MatchMakingEvents;
 public record QueuePlayerAddEvent
 {
     public required string UserId { get; set; }
+    public required string TicketId { get; set; }
 }
