@@ -9,6 +9,23 @@ namespace Contracts.Common.Helpers;
 
 public static class Helpers
 {
+
+    public static int GetTargetPlayersCountForGameType(GameTypeEnum gameTypeEnum)
+    {
+        switch (gameTypeEnum)
+        {
+            case GameTypeEnum.Classic:
+                return 3;
+            case GameTypeEnum.BotMonster:
+                return 2;
+            case GameTypeEnum.OneByOne:
+                return 2;
+            case GameTypeEnum.OneVsBot:
+                return 1;
+            default: return 0;
+        }
+    }
+
     public static int GetTargetPlayersCountForGameType(GameTypeEnum gameTypeEnum, PlayerTypeEnum playerType)
     {
         switch(gameTypeEnum)
