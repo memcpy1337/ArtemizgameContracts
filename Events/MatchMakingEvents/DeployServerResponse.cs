@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Contracts.Events.MatchMakingEvents;
 
-public record UserEnterQueuePlayEventResponse
+public record DeployServerResponse
 {
-    public string Token { get; set; } = String.Empty;
+    public required string MatchId { get; set; }
+    public bool IsError { get; set; }
+    public string? Message { get; set; }
 }
