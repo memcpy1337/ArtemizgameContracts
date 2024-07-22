@@ -11,4 +11,5 @@ public record MatchNewEvent
 {
     public required string MatchId { get; set; }
     public GameTypeEnum GameType { get; set; }
+    public required List<string> UsersIp { get; set; }
 }
