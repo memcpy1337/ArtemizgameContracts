@@ -11,6 +11,7 @@ public enum MatchStatusEnum
     Init,
     WaitForPlayers,
     WaitForServer,
+    WaitPlayerConnect,
     Process,
     End
 }
