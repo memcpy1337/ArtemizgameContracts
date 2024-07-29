@@ -5,11 +5,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	  <PackageId>Artemizgame.Contracts</PackageId>
-	  <Version>2.2.11</Version>
+	  <Version>2.2.12</Version>
 	  <Authors>Artemizgame</Authors>
 	  <Product>Calculator</Product>
 	  <Description>Artemizgame.Contracts</Description>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-  </PropertyGroup> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.2.3" />
+  </ItemGroup> 
 
 </Project>
