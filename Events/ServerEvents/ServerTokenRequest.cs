@@ -9,4 +9,5 @@ namespace Contracts.Events.ServerEvents;
 public record ServerTokenRequest
 {
     public required string ServerId { get; set; }
+    public required string MatchId { get; set; }
 }
