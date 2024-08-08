@@ -10,5 +10,6 @@ namespace Contracts.Events.ServerEvents;
 public record ServerBadDownEvent
 {
     public required string ServerId { get; set; }
+    public required string MatchId { get; set; }
     public ServerDownStatusEnum Status { get; set; }
 }
