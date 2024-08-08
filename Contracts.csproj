@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	  <PackageId>Artemizgame.Contracts</PackageId>
-	  <Version>2.3.0</Version>
+	  <Version>2.3.1</Version>
 	  <Authors>Artemizgame</Authors>
 	  <Product>Calculator</Product>
 	  <Description>Artemizgame.Contracts</Description>

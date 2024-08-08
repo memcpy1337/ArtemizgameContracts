@@ -1,7 +1,9 @@
 ﻿using Contracts.Common.Models.Enums;
+using MassTransit;
 
 namespace Contracts.Events.MatchMakingEvents;
 
+[MessageUrn("match-status-update")]
 public record MatchCancelEvent
 {
     public required string MatchId { get; set; }
