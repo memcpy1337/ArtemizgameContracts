@@ -8,4 +8,5 @@ public record MatchCancelEvent
 {
     public required string MatchId { get; set; }
     public MatchCancelEnum Reason { get; set; }
+    public required string UserId { get; set; }
 }

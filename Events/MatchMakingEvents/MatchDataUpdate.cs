@@ -5,9 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Contracts.Events.MatchMakingEvents;
-
-public record MatchReadyEvent
+public record MatchDataUpdate
 {
     public required string MatchId { get; set; }
     public required string UserId { get; set; }
+    public required string Address { get; set; }
+    public int Port { get; set; }
 }
