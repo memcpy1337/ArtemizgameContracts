@@ -33,11 +33,11 @@ public static class Helpers
             case GameTypeEnum.Classic:
                 if (playerType == PlayerTypeEnum.Crew)
                 {
-                    return 2;
+                    return 3;
                 }
                 else
                 {
-                    return 1;
+                    return 0;
                 }
             case GameTypeEnum.BotMonster:
                 if (playerType == PlayerTypeEnum.Crew)
